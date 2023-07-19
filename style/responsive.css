@@ -27,4 +27,15 @@
         background: rgba(11, 2, 35, 0.10);
         width: 120px;
     }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text{
+        width: 100%;
+        margin: 25% auto 0;
+    }
+    .banner-pics{
+        width: 100%;
+        margin: 5% auto 0;
+    }
 }

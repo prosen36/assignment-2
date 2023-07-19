@@ -67,3 +67,115 @@
 .span {
     color: #FF42A5;
 }
+
+/* nav related styles ends */
+
+/* banner related styles starts */
+.banner-container {
+    max-width: 120rem;
+    height: 80vh;
+    display: flex;
+    background: (to bottom,#8C57EE0D - 5%, #F144AE0D - 5% );
+}
+
+.banner-pics {
+    width: 50%;
+    /* border: 2px solid greenyellow; */
+}
+
+.banner-text {
+    width: 50%;
+    /* border: 2px solid tomato; */
+    /* margin: auto; */
+}
+
+.banner-content {
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+.banner-pics img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.banner-btn1 {
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 3rem;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border-color: none;
+}
+
+.banner-btn2 {
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 3rem;
+    background: #4EC5F7;
+    border-color: none;
+    color: none;
+
+}
+
+.banner-btn {
+    color: white;
+}
+
+.banner-description {
+    color: #534C64;
+    /* text-align: center; */
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+
+
+
+
+
+
+.goat {}
+
+.abbr {
+    font-size: 3.5em;
+    letter-spacing: 0;
+
+}
+
+.dot {
+    position: relative;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 800;
+}
+
+.dot::after {
+    content: ".";
+    position: absolute;
+    top: 0;
+    right: -0.15em;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner-title {
+    color: #0B0223;
+    /* text-align: center; */
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
