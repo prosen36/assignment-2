@@ -75,7 +75,7 @@
     max-width: 120rem;
     height: 80vh;
     display: flex;
-    background: (to bottom,#8C57EE0D - 5%, #F144AE0D - 5% );
+    background: (to bottom, #8C57EE0D - 5%, #F144AE0D - 5%);
 }
 
 .banner-pics {
@@ -178,4 +178,64 @@
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+}
+
+/* banner styles end */
+
+/* online games part starts */
+
+.online-games-part {
+    border: 2px solid peru;
+    margin-top: 50px;
+}
+
+.online-title {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-heading {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-description {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-top: -25px;
+}
+
+.online-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    width: ;
+}
+
+.online-caption {
+    width: 21.375rem;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem;
+    /* 150% */
 }
