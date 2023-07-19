@@ -1,25 +1,29 @@
 @media screen and (max-width: 576px) {
-    .nav-container{
+    .nav-container {
         flex-direction: column;
         height: 30vh;
         /* gap: -50px; */
     }
-    .main-container{
+
+    .main-container {
         margin: 0 auto;
     }
-    .nav-items{
+
+    .nav-items {
         display: flex;
         flex-direction: column;
         margin: 0px auto;
         gap: 10px;
-        
+
         /* justify-content: center; */
     }
-    .nav-items a{
+
+    .nav-items a {
         /* padding-top: 10px; */
-        
-        
+
+
     }
+
     .follow {
         /* border: 1px solid aquamarine; */
         padding: 5px 10px 5px 5px;
@@ -27,15 +31,61 @@
         background: rgba(11, 2, 35, 0.10);
         width: 120px;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
     }
-    .banner-text{
+
+    .banner-text {
         width: 100%;
         margin: 25% auto 0;
     }
-    .banner-pics{
+
+    .banner-pics {
         width: 100%;
         margin: 5% auto 0;
+    }
+
+    .online-images,
+    .online-pic {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+
+    }
+
+    .online-images {
+        margin-left: 10%;
+    }
+
+    .online-games-part {
+        margin-top: 500px;
+        /* max-width: 80%; */
+    }
+
+    .play-container {
+        flex-direction: column;
+    }
+
+    /* .play-container, .play-image{
+        width: 50%;
+    }
+    .play-image, .play-image1{
+        width: 30%;
+    } */
+    .play-image {
+        width: 100vw;
+    }
+
+    .position {
+        position: relative;
+    }
+
+    .play-image1 {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        width: 70%;
+    }
+    ..play-image2{
+        top: -50px;
     }
 }
