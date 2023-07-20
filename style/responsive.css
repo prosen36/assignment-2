@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
     .nav-container {
         flex-direction: column;
-        height: 30vh;
+        height: 40vh;
         /* gap: -50px; */
         justify-content: flex-start;
     }
@@ -27,7 +27,7 @@
 
     .follow {
         /* border: 1px solid aquamarine; */
-        padding: 5px 10px 5px 5px;
+        padding: 5px 30px 5px 5px;
         border-radius: 0.5rem;
         background: rgba(11, 2, 35, 0.10);
         width: 120px;
@@ -203,5 +203,10 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+    }
+    .footer-end{
+        margin-left: 10px;
+        
+    
     }
 }
