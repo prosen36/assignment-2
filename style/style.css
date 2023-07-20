@@ -1,11 +1,14 @@
 /* header related styles */
-.title-icon{
-    width: 5px; /* Adjust the width as needed */
-    height: 5px; /* Adjust the height as needed */
+.title-icon {
+    width: 5px;
+    /* Adjust the width as needed */
+    height: 5px;
+    /* Adjust the height as needed */
     /* vertical-align: middle; */
     /* margin-right: 5px; Adjust the spacing between icon and title as needed */
 }
-.title-container{
+
+.title-container {
     font-size: 30px;
     color: #0B0223;
     font-family: Work Sans;
@@ -105,11 +108,13 @@
     width: 50%;
     /* border: 2px solid tomato; */
     /* margin: auto; */
+    background-image: url("/images/Group\ 14.png");
 }
 
 .banner-content {
     margin-left: 25%;
     margin-top: 25%;
+    
 }
 
 .banner-pics img {
@@ -244,7 +249,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-around;
-    
+
     margin-left: 20px;
 }
 
@@ -258,7 +263,8 @@
     line-height: 1.875rem;
     /* 150% */
 }
-.online-pic{
+
+.online-pic {
     position: relative;
 
 }
@@ -269,31 +275,37 @@
     left: 0;
     width: 90%;
     height: 80%;
-    background-color: rgba(0, 0, 0, 0.6); /* Darkish black overlay with opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Darkish black overlay with opacity */
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0; /* Initially hidden */
+    opacity: 0;
+    /* Initially hidden */
     transition: opacity 0.3s ease;
     border-radius: 5px;
     border: 2px solid palevioletred;
     margin-left: 3px;
-  }
-  
-  .overlay img {
-    width: 60px; /* Adjust the size of the play icon as needed */
+}
+
+.overlay img {
+    width: 60px;
+    /* Adjust the size of the play icon as needed */
     height: 60px;
     /* border-radius: 5px; */
-  }
-  .overlay p {
-    color: #fff; /* White caption text color */
+}
+
+.overlay p {
+    color: #fff;
+    /* White caption text color */
     font-size: 18px;
     margin-left: 10px;
-  }
-  
-  .online-pic:hover .overlay {
-    opacity: 3; /* Show the overlay on hover */
-  }
+}
+
+.online-pic:hover .overlay {
+    opacity: 3;
+    /* Show the overlay on hover */
+}
 
 
 
@@ -374,7 +386,7 @@
 
 /* games section starts here */
 .games-container {
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     max-height: 1400px;
 
 
@@ -446,27 +458,29 @@
 
 /* footer section starts here */
 .footer-section {
-    width: 120rem;
+    max-width: 120rem;
     height: 30rem;
     flex-shrink: 0;
     background: #0B0223;
     margin-top: 80px;
-    
+
 }
-.footer-container{
+
+.footer-container {
     display: flex;
-    max-width: 50%;
+    max-width: 35%;
     gap: 10px;
     align-items: center;
     margin: 0 auto;
     text-align: center;
 }
-.footer-container img{
+
+.footer-container img {
     width: 80px;
     height: 30px;
 }
 
-.footer-container p{
+.footer-container p {
     font-size: 30px;
     color: #FFF;
     font-family: Work Sans;
@@ -491,4 +505,35 @@
     font-weight: 600;
     line-height: normal;
     /* margin: 0 auto; */
+}
+
+.footer-btn {
+    /* display: flex; */
+    /* border: 2px solid green; */
+    margin-left: 400px;
+    margin-right: 30px;
+
+}
+
+.footer-btn button {
+    margin-right: 80px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer-writings {
+    display: flex;
+    padding-top: 20px;
+    margin-left: 350px;
+    gap: 20px;
+}
+
+.footer-terms {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
